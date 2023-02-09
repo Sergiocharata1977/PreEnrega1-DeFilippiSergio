@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Credito </title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <H1>Calculo de prestamos</H1>
+    <H2> Estudio Contador:  De Filippi Sergio </H2>
+    <P>Al momento de Ingresar los valores, recordad que la tasa de Interes es anual y se la debe ingresar en tanto por uno </P>
+    <div>
+        <label for="prestamo">Monto inicial del préstamo:</label>
+        <input type="number" id="prestamo" name="prestamo">
+      </div>
+      <div>
+        <label for="cuotas">Número de cuotas:</label>
+        <input type="number" id="cuotas" name="cuotas">
+      </div>
+      <div>
+        <label for="interes">Tasa de interés anual:</label>
+        <input type="number" id="interes" name="interes">
+      </div>
+      <button onclick="calcularCuota()">Calcular</button>
+      <div id="resultado">
+      </div>
+    <script src="js/main.js"
+    ></script>
+
+</body>
+</html>
